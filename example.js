@@ -6,6 +6,7 @@ const { db, utils } = require('./lib')
 const setup = async () => {
   // Connect to the database
   const connection = await db.connect('mongodb://diran.univ-littoral.fr:27017/webexpe')
+  console.log('The database connection was established.')
 
   // Find every documents being experiment data
   const res = await db.findCustom({
@@ -26,6 +27,7 @@ const setup = async () => {
 
   // Disconnect from the database
   await db.disconnect(connection)
+  console.log('The database connection was destroyed.')
 }
 
 setup()
