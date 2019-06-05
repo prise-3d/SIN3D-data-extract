@@ -11,6 +11,6 @@ npm i git+https://gogs@gogs.univ-littoral.fr/Prise3D/webexpe-data-extract
 See [`/example.js`](./example.js)
 
 ## API
-See [`/lib/db.js#L83-L94`](./lib/db.js#L83-L94)
+See [`/lib/db.js#L81-L92`](./lib/db.js#L81-L92)
 
 Every functions should be auto-completable in your editor.
