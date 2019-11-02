@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "fs-extra": "^8.0.1",
-    "mongoose": "^5.5.5"
+    "mongoose": "^5.7.5"
   }
 }
